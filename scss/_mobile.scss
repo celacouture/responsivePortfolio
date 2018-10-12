@@ -49,6 +49,25 @@
       background-size: 145px, 90px;
     }
   }
+
+  .about-info{
+    grid-template-areas:
+    'bioimage'
+    'bio'
+    'job1'
+    'job2'
+    'job3';
+
+    grid-template-columns:1fr;
+  }
+
+  .bio{
+    margin-right:-35px;
+  }
+
+  .projects{
+    grid-template-columns: 1fr;
+  }
 }
 
 //smartphones
@@ -61,6 +80,36 @@
 
     &#home h1{
       margin-top: 10vh;
+    }
+  }
+
+  ul.menu-nav,
+  div.menu-branding{
+    float: none;
+    width: 100%;
+    min-height: 0;
+
+    &.show{
+      transform:translate3d(0,0,0);
+    }
+  }
+
+  .menu-nav{
+    height:80vh;
+    background: darken($primary-color, 9);
+    transform: translate3d(-100%, 0, 0);
+    font-size: 24px;
+  }
+
+  .menu-branding{
+    height: 20vh;
+    transform: translate3d(100%, 0, 0);
+
+    .portrait{
+      background: url('../images/portraitSML.jpg');
+      width:150px;
+      height:240px;
+      background-size: 145px, 90px;
     }
   }
 
