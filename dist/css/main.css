@@ -214,11 +214,24 @@ main {
   background: #b2c0c8;
   color: #000; }
 
+.emailform input, .emailform textarea {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  margin-top: 1rem; }
+
+.emailform .message {
+  height: 7rem; }
+
 #main-footer {
   text-align: center;
   padding: 1rem;
   background: #283339;
   height: 60px; }
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  div {
+    margin: 40px; } }
 
 @media screen and (max-width: 768px), only screen and (max-device-width: 768px) {
   main {
