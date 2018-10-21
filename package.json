@@ -1,14 +1,17 @@
 {
   "name": "responsiveportfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Responsive Portfolio",
   "main": "main.js",
+  "homepage":"https://celacouture.github.io/responsivePortfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --resursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --resursive",
+    "deploy":"gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.9.3"
   }
 }
