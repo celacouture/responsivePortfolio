@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Responsive Portfolio",
   "main": "main.js",
-  "homepage":"https://celacouture.github.io/responsivePortfolio",
+  "homepage": "https://celacouture.github.io/responsivePortfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --resursive",
-    "deploy":"gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
